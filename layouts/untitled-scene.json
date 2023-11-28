@@ -18,12 +18,93 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4335774304702384,
+    "zoomFactor": 0.4789341884535258,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 6,
+      "height": 124,
+      "layer": "",
+      "name": "CupTea",
+      "persistentUuid": "711d52dc-ee9d-4a48-8720-2ba26b17f2e1",
+      "width": 164,
+      "x": 712,
+      "y": 363,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 30,
+      "height": 237,
+      "layer": "",
+      "name": "KitchenCoffeeMachine",
+      "persistentUuid": "60a00864-3135-4163-87ed-3845a081a75d",
+      "width": 286,
+      "x": 58,
+      "y": 277,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 220,
+      "layer": "",
+      "name": "MilkPlastic",
+      "persistentUuid": "9a117bed-1a52-4bf8-b525-561cd0ea706e",
+      "width": 205,
+      "x": 103,
+      "y": 462,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 193,
+      "layer": "",
+      "name": "Sugar",
+      "persistentUuid": "8851f363-0562-4922-92d5-2f02425171e4",
+      "width": 169,
+      "x": 1014,
+      "y": 468,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 185,
+      "layer": "",
+      "name": "CoffeeBag",
+      "persistentUuid": "5f7b3e77-8746-4300-b910-11126a133e0b",
+      "width": 185,
+      "x": 981,
+      "y": 63,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
   "objects": [
     {
       "adaptCollisionMaskAutomatically": true,
@@ -33,7 +114,13 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "checkCollisionMask": true,
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -93,7 +180,13 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "checkCollisionMask": true,
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -175,7 +268,13 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "checkCollisionMask": true,
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -293,13 +392,19 @@
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "checkCollisionMask": true,
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable"
+        }
+      ],
       "content": {
         "centerLocation": "ModelOrigin",
         "depth": 14,
         "height": 14,
         "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
+        "materialType": "KeepOriginal",
         "modelResourceName": "Cup Tea.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
@@ -410,7 +515,52 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 128,
+      "ambientLightColorG": 128,
+      "ambientLightColorR": 128,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Object3D",
+      "type": "Scene3D::Base3DBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    }
+  ]
 }
