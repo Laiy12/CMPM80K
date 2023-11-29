@@ -157,7 +157,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "EmptyMilkPitcher",
+      "name": "MetalMilkPitcher",
       "persistentUuid": "b9adbd22-28e3-4925-9503-b9e7f994201b",
       "width": 0,
       "x": 572,
@@ -175,8 +175,8 @@
       "name": "SteamedMilkPitcher",
       "persistentUuid": "9a3cb4a5-ff1a-47f9-9426-2e85ac9050c3",
       "width": 0,
-      "x": 386,
-      "y": 454,
+      "x": 416,
+      "y": 459,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -683,7 +683,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "EmptyMilkPitcher",
+      "name": "MetalMilkPitcher",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -730,66 +730,6 @@
                       {
                         "x": 30,
                         "y": 176
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "FullMilkPitcher",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Untitled_Artwork 4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 14,
-                        "y": 79
-                      },
-                      {
-                        "x": 135,
-                        "y": 79
-                      },
-                      {
-                        "x": 135,
-                        "y": 172
-                      },
-                      {
-                        "x": 14,
-                        "y": 172
                       }
                     ]
                   ]
@@ -901,10 +841,7 @@
         "objectName": "Mocha"
       },
       {
-        "objectName": "EmptyMilkPitcher"
-      },
-      {
-        "objectName": "FullMilkPitcher"
+        "objectName": "MetalMilkPitcher"
       },
       {
         "objectName": "SteamedMilkPitcher"
