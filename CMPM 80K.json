@@ -66,45 +66,6 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "assets/floor brown.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "floor brown.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric Interiors Pack/Floor/c1f7c4554175724ed25c21af3e4e46edf97da56d0fce4533224c8a26d942853d_floor brown.png",
-          "name": "floor brown.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/tiled_Gray Background.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tiled_Gray Background.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Background/e4143984855b3f2809a2a27ebfdf1ba854f1bf5248b74cc117ed4002cbe0e5d9_tiled_Gray Background.png",
-          "name": "tiled_Gray Background.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wall Brown Flat.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wall Brown Flat.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Wall/b8c829149a2892e17fe974dff1370c505c7bef6ed09e1f2d2196187ef9ac3473_Wall Brown Flat.png",
-          "name": "Wall Brown Flat.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Coffee Bag.png",
         "kind": "image",
         "metadata": "",
@@ -138,58 +99,6 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Food/Food/ddc463e298ed4d609d4bd51a24dfbcfe021cd30115eef19d4a9e0839631f61a3_Whipped Cream.glb",
           "name": "Whipped Cream.glb"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/tiled_Brown background.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tiled_Brown background.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Backgrounds/4301a40f507e51d964f68121478aa525ca2acf8a65fb135fd9efa0dbacf96cf9_tiled_Brown background.png",
-          "name": "tiled_Brown background.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Bottom Left Corner Wood Background Cutout.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Bottom Left Corner Wood Background Cutout.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Tile Sets/Wood Background/Cutout/b25fcbceea242c4d0c35e722c11d7783e6bf7923d0fd72308926af353af4ee77_Bottom Left Corner Wood Background Cutout.png",
-          "name": "Bottom Left Corner Wood Background Cutout.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Open door.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Open door.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/dcd6da81f5966482ce447f6f3552c4d6eefb19ae6fc57c22a52729a2f9c022c9_Open door.png",
-          "name": "Open door.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/tiled_Wall for Red Floor.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tiled_Wall for Red Floor.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Tiles/936a27e8daf2ac8c50edfd10dfd0b335c8d63a7be71873d618ee72415fe087ab_tiled_Wall for Red Floor.png",
-          "name": "tiled_Wall for Red Floor.png"
         }
       },
       {
@@ -239,6 +148,111 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Furniture/device/afa33ee7785c000c9b7387887bbc20c9e1b6fac47c4753e2dca48853655d5db3_Kitchen Coffee Machine.glb",
           "name": "Kitchen Coffee Machine.glb"
         }
+      },
+      {
+        "file": "assets/Counter Straight2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Counter Straight.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Furniture/1fad36af9b1193673c5194a22410405c2121a1af7201c15f83d1f39cedb01711_Counter Straight.glb",
+          "name": "Counter Straight.glb"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Brown Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Brown Background.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Rolling Ball Pack/Background/627c085f02e0d1fa600f2d47ada863d1176a33dd54e051ddcf3e9ccfb2190a88_tiled_Brown Background.png",
+          "name": "tiled_Brown Background.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Brown Background.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Brown Background.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled_Artwork.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Untitled_Artwork.png\",\"extension\":\".png\"}",
+        "name": "Untitled_Artwork.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled_Artwork2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled_Artwork2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled_Artwork 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled_Artwork 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled_Artwork 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled_Artwork 3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled_Artwork4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled_Artwork4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled_Artwork 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled_Artwork 4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled_Artwork5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled_Artwork5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled_Artwork 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled_Artwork 5.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -253,9 +267,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/making-latte"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/untitled-external-events"
+    }
+  ],
   "eventsFunctionsExtensions": [],
   "externalLayouts": [],
   "externalSourceFiles": []
