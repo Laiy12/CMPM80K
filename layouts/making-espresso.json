@@ -1296,6 +1296,21 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PreloadSound"
+          },
+          "parameters": [
+            "",
+            "coffee-122351.mp3"
+          ]
+        }
+      ]
     }
   ],
   "layers": [

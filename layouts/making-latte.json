@@ -1501,6 +1501,21 @@
         }
       ],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PreloadSound"
+          },
+          "parameters": [
+            "",
+            "coffee-122350.mp3"
+          ]
+        }
+      ]
     }
   ],
   "layers": [

@@ -464,6 +464,36 @@
         "name": "assets/Brown Button With Shadow_Pressed.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "coffee-122351.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "coffee-122351.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "coffee-122350.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "coffee-122350.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "coffee-122349.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "coffee-122349.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
