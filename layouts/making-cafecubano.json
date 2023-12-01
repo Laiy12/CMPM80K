@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Making_32Mocha",
-  "name": "Making Mocha",
+  "mangledName": "Making_32CafeCubano",
+  "name": "Making CafeCubano",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4057518905943857,
+    "zoomFactor": 0.40575189059438554,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -131,22 +131,6 @@
       "x": 513,
       "y": 253,
       "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 304,
-      "layer": "",
-      "name": "ChocolateSauce",
-      "persistentUuid": "8704cab3-b5cb-4e0e-836f-376f4e2dad56",
-      "width": 184,
-      "x": 845,
-      "y": 388,
-      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -537,13 +521,7 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Draggable",
-          "type": "DraggableBehavior::Draggable",
-          "checkCollisionMask": true
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "",
@@ -1062,128 +1040,6 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Espresso_with_Chocolate",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6,
-                        "y": 4
-                      },
-                      {
-                        "x": 23,
-                        "y": 4
-                      },
-                      {
-                        "x": 23,
-                        "y": 18
-                      },
-                      {
-                        "x": 6,
-                        "y": 18
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "MochaCup",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Piskel\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAK5JREFUWEftldEJgDAMRM1wHULncAzn0CE6XKQfkRLEXGigCPFPes09zx6lZfJDk/2XBMgEMgF3ArVWLqU8+6x3q+YuAMtMr1vmbd0F0DZEQ7gBoiHcAFMTiDbPM/DfBJB+oxq4BczM6FDREZE53xT0xuexwgzbfj3aLxAIQBv3wzXRm3YYQExkOAIQmkD/lchv0IBhCcAHQAkTIBPIBIYSkEZNuwt09xEQ5BKSuTeK/LYh6Y2kZQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAG9JREFUWEdjZBhgwDjA9jOMOmA0BEZDYDQERkNgNARGQ2A0BIZWCJiqiv4ntgV1+vZrojxHlCJ0i/EZTopakGeIcgDM1zDDiXEAVUMAOdiJiQZiLSc5BIiNf1LUkRQFpBhMrNpRB4yGwGgIDHgIAACA+xghs5Cd9gAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite4\"],\"name\":\"NewSprite\"}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite4",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 8,
-                        "y": 8
-                      },
-                      {
-                        "x": 25,
-                        "y": 8
-                      },
-                      {
-                        "x": 25,
-                        "y": 32
-                      },
-                      {
-                        "x": 8,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
       "name": "MedievalButtonBrown",
       "type": "PanelSpriteButton::PanelSpriteButton",
@@ -1224,7 +1080,70 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Button",
+          "string": "Next level",
+          "font": "CaveatBrush-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 159,
+            "g": 190,
+            "r": 219
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Pressed.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "MedievalButtonBrown2",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Hovered.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Idle.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Start making a Latte",
           "font": "CaveatBrush-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 40,
@@ -1305,13 +1224,10 @@
         "objectName": "LatteCup"
       },
       {
-        "objectName": "Espresso_with_Chocolate"
-      },
-      {
-        "objectName": "MochaCup"
-      },
-      {
         "objectName": "MedievalButtonBrown"
+      },
+      {
+        "objectName": "MedievalButtonBrown2"
       }
     ]
   },
@@ -1493,7 +1409,7 @@
             "",
             "EspressoCup",
             "510",
-            "160",
+            "260",
             ""
           ]
         },
@@ -1519,7 +1435,7 @@
           },
           "parameters": [
             "SteamedMilkPitcher",
-            "Espresso_with_Chocolate",
+            "EspressoCup",
             "",
             "",
             ""
@@ -1532,7 +1448,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "Espresso_with_Chocolate",
+            "EspressoCup",
             ""
           ]
         },
@@ -1542,7 +1458,7 @@
           },
           "parameters": [
             "",
-            "MochaCup",
+            "LatteCup",
             "510",
             "160",
             ""
@@ -1553,7 +1469,7 @@
             "value": "ScalableCapability::ScalableBehavior::SetValue"
           },
           "parameters": [
-            "MochaCup",
+            "LatteCup",
             "Scale",
             "=",
             "9"
@@ -1588,33 +1504,13 @@
             "440",
             ""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
-            "value": "CollisionNP"
+            "value": "Wait"
           },
           "parameters": [
-            "ChocolateSauce",
-            "EspressoCup",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "EspressoCup",
-            ""
+            "2"
           ]
         },
         {
@@ -1623,28 +1519,27 @@
           },
           "parameters": [
             "",
-            "Espresso_with_Chocolate",
-            "510",
-            "160",
+            "MedievalButtonBrown",
+            "529",
+            "311",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ScalableCapability::ScalableBehavior::SetValue"
-          },
-          "parameters": [
-            "Espresso_with_Chocolate",
-            "Scale",
-            "=",
-            "9"
           ]
         }
       ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "MedievalButtonBrown",
+            ""
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {
@@ -1652,11 +1547,26 @@
           },
           "parameters": [
             "",
-            "\"Making Espresso \"",
+            "\"Making Mocha\"",
             ""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Achievement_Mocha",
+            "True"
+          ]
+        }
+      ],
+      "actions": []
     }
   ],
   "layers": [
