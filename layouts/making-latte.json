@@ -1038,132 +1038,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
-      "name": "MedievalButtonBrown",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 0,
-        "RightPadding": 0,
-        "PressedLabelOffsetY": 4,
-        "BottomPadding": 10,
-        "TopPadding": 0,
-        "HoveredFadeOutDuration": 0.2
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 11,
-          "height": 64,
-          "leftMargin": 7,
-          "rightMargin": 7,
-          "texture": "Medieval Button Brown_Hovered.png",
-          "tiled": true,
-          "topMargin": 7,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 11,
-          "height": 64,
-          "leftMargin": 7,
-          "rightMargin": 7,
-          "texture": "Medieval Button Brown_Idle.png",
-          "tiled": true,
-          "topMargin": 7,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "Next level",
-          "font": "CaveatBrush-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 40,
-          "color": {
-            "b": 159,
-            "g": 190,
-            "r": 219
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 7,
-          "height": 64,
-          "leftMargin": 7,
-          "rightMargin": 7,
-          "texture": "Medieval Button Brown_Pressed.png",
-          "tiled": true,
-          "topMargin": 11,
-          "width": 192
-        }
-      }
-    },
-    {
-      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
-      "name": "MedievalButtonBrown2",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 0,
-        "RightPadding": 0,
-        "PressedLabelOffsetY": 4,
-        "BottomPadding": 10,
-        "TopPadding": 0,
-        "HoveredFadeOutDuration": 0.2
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 11,
-          "height": 64,
-          "leftMargin": 7,
-          "rightMargin": 7,
-          "texture": "Medieval Button Brown_Hovered.png",
-          "tiled": true,
-          "topMargin": 7,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 11,
-          "height": 64,
-          "leftMargin": 7,
-          "rightMargin": 7,
-          "texture": "Medieval Button Brown_Idle.png",
-          "tiled": true,
-          "topMargin": 7,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "Start making a Latte",
-          "font": "CaveatBrush-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 40,
-          "color": {
-            "b": 159,
-            "g": 190,
-            "r": 219
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 7,
-          "height": 64,
-          "leftMargin": 7,
-          "rightMargin": 7,
-          "texture": "Medieval Button Brown_Pressed.png",
-          "tiled": true,
-          "topMargin": 11,
-          "width": 192
-        }
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -1222,12 +1096,6 @@
       },
       {
         "objectName": "LatteCup"
-      },
-      {
-        "objectName": "MedievalButtonBrown"
-      },
-      {
-        "objectName": "MedievalButtonBrown2"
       }
     ]
   },
@@ -1512,34 +1380,12 @@
           "parameters": [
             "2"
           ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "MedievalButtonBrown",
-            "529",
-            "311",
-            ""
-          ]
         }
       ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-          },
-          "parameters": [
-            "MedievalButtonBrown",
-            ""
-          ]
-        }
-      ],
+      "conditions": [],
       "actions": [
         {
           "type": {
