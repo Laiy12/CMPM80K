@@ -1082,7 +1082,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "",
+                  "image": "assets\\espressowithchoc.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

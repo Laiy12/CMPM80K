@@ -494,6 +494,15 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/espressowithchoc.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\espressowithchoc.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
