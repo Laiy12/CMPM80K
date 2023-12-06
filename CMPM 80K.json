@@ -503,6 +503,26 @@
         "name": "assets\\espressowithchoc.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/coffee-122351.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\coffee-122351.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Blacksmith.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Blacksmith.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -527,11 +547,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/making-cafecubano"
+      "referenceTo": "/layouts/making-latte"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/making-latte"
+      "referenceTo": "/layouts/making-cafecubano"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

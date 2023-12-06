@@ -5,7 +5,7 @@
   "name": "Making Espresso ",
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -1123,6 +1123,18 @@
           "parameters": [
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\coffee-122351.mp3",
+            "yes",
+            "20",
+            ""
+          ]
         }
       ]
     },
@@ -1300,17 +1312,7 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "PreloadSound"
-          },
-          "parameters": [
-            "",
-            "coffee-122351.mp3"
-          ]
-        }
-      ]
+      "actions": []
     }
   ],
   "layers": [

@@ -5,7 +5,7 @@
   "name": "Making Latte",
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -1481,7 +1481,7 @@
           },
           "parameters": [
             "",
-            "\"Making Mocha\"",
+            "\"Making CafeCubano\"",
             ""
           ]
         }
@@ -1505,17 +1505,7 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "PreloadSound"
-          },
-          "parameters": [
-            "",
-            "coffee-122350.mp3"
-          ]
-        }
-      ]
+      "actions": []
     }
   ],
   "layers": [

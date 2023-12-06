@@ -5,7 +5,7 @@
   "name": "Making Mocha",
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -1584,17 +1584,7 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "PreloadSound"
-          },
-          "parameters": [
-            "",
-            "coffee-122349.mp3"
-          ]
-        }
-      ]
+      "actions": []
     }
   ],
   "layers": [
