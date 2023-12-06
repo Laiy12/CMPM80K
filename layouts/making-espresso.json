@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Making_32Latte",
-  "name": "Making Latte",
+  "mangledName": "Making_32Espresso_32",
+  "name": "Making Espresso ",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.40575189059438554,
+    "zoomFactor": 0.39251611754882637,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -33,41 +33,9 @@
       "name": "KitchenCoffeeMachine",
       "persistentUuid": "60a00864-3135-4163-87ed-3845a081a75d",
       "width": 286,
-      "x": 30,
-      "y": 263,
+      "x": 55,
+      "y": 299,
       "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 220,
-      "layer": "",
-      "name": "MilkPlastic",
-      "persistentUuid": "9a117bed-1a52-4bf8-b525-561cd0ea706e",
-      "width": 205,
-      "x": 73,
-      "y": 440,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 193,
-      "layer": "",
-      "name": "Sugar",
-      "persistentUuid": "8851f363-0562-4922-92d5-2f02425171e4",
-      "width": 169,
-      "x": 1084,
-      "y": 461,
-      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -81,8 +49,8 @@
       "name": "CoffeeBag",
       "persistentUuid": "5f7b3e77-8746-4300-b910-11126a133e0b",
       "width": 185,
-      "x": 1058,
-      "y": 50,
+      "x": 1021,
+      "y": 95,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -100,37 +68,6 @@
       "x": 4,
       "y": 3,
       "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 286,
-      "layer": "",
-      "name": "MetalMilkPitcher",
-      "persistentUuid": "b9adbd22-28e3-4925-9503-b9e7f994201b",
-      "width": 248,
-      "x": 560,
-      "y": 440,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 300,
-      "layer": "",
-      "name": "EmptyCup",
-      "persistentUuid": "80f105c4-f814-45b9-a3bc-9f189fc25bdd",
-      "width": 300,
-      "x": 513,
-      "y": 253,
-      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1041,7 +978,7 @@
     },
     {
       "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
-      "name": "MedievalButtonBrown2",
+      "name": "MedievalButtonBrown",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -1161,7 +1098,7 @@
         "objectName": "LatteCup"
       },
       {
-        "objectName": "MedievalButtonBrown2"
+        "objectName": "MedievalButtonBrown"
       }
     ]
   },
@@ -1197,87 +1134,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "Sugar",
-            "CupTea",
-            "",
-            "",
-            "yes"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "CupTea",
-            "Animation"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Chocolatecake",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "MetalMilkPitcher",
-            "MilkPlastic",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "MetalMilkPitcher",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "MilkPitcher",
-            "560",
-            "440",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "MilkPitcher",
+            "CoffeeBag",
             "KitchenCoffeeMachine",
             "",
             "",
@@ -1291,7 +1148,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "MilkPitcher",
+            "CoffeeBag",
             ""
           ]
         },
@@ -1301,10 +1158,44 @@
           },
           "parameters": [
             "",
-            "SteamedMilkPitcher",
-            "560",
-            "440",
+            "CoffeeBag",
+            "1058",
+            "50",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "CoffeeBag",
+            "Scale",
+            "=",
+            "6"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "EmptyCup",
+            "538",
+            "253",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "EmptyCup",
+            "Scale",
+            "=",
+            "7"
           ]
         }
       ]
@@ -1342,8 +1233,8 @@
           "parameters": [
             "",
             "EspressoCup",
-            "510",
-            "260",
+            "538",
+            "253",
             ""
           ]
         },
@@ -1355,88 +1246,7 @@
             "EspressoCup",
             "Scale",
             "=",
-            "9"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "SteamedMilkPitcher",
-            "EspressoCup",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "EspressoCup",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "LatteCup",
-            "510",
-            "160",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ScalableCapability::ScalableBehavior::SetValue"
-          },
-          "parameters": [
-            "LatteCup",
-            "Scale",
-            "=",
-            "9"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetGlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "Achievement_Mocha",
-            "True"
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "SteamedMilkPitcher",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "MilkPitcher",
-            "560",
-            "440",
-            ""
+            "7"
           ]
         },
         {
@@ -1444,7 +1254,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "2"
+            ".5"
           ]
         },
         {
@@ -1453,7 +1263,7 @@
           },
           "parameters": [
             "",
-            "MedievalButtonBrown2",
+            "MedievalButtonBrown",
             "532",
             "269",
             ""
@@ -1469,7 +1279,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "MedievalButtonBrown2",
+            "MedievalButtonBrown",
             ""
           ]
         }
@@ -1481,26 +1291,11 @@
           },
           "parameters": [
             "",
-            "\"Making Mocha\"",
+            "\"Making Latte\"",
             ""
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "Achievement_Mocha",
-            "True"
-          ]
-        }
-      ],
-      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1512,7 +1307,7 @@
           },
           "parameters": [
             "",
-            "coffee-122350.mp3"
+            "coffee-122351.mp3"
           ]
         }
       ]

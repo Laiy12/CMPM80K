@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Making Espresso ",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -280,6 +280,220 @@
         "name": "NewSprite3",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Brown_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f050eea8c9631c6b163779937225dd43bb432edf6b66dbaf64413e005ce5fbed_Medieval Button Brown_Hovered.png",
+          "name": "Medieval Button Brown_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Brown_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/236403e4a45a3c7435d21f15ebcf3ab54b83e7389964d6999b0f82a3a957056a_Medieval Button Brown_Idle.png",
+          "name": "Medieval Button Brown_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Brown_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d9240cf31b0e332a890cdbe7658eef81c587545df6673b86565c9141a23bc195_Medieval Button Brown_Pressed.png",
+          "name": "Medieval Button Brown_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CaveatBrush-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CaveatBrush-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+          "name": "CaveatBrush-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Brown Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Brown Button With Shadow_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6744d1d1623a1dd0307667df92a05ab7d33bd968fd4013f06c469331d120df2e_Brown Button With Shadow_Hovered.png",
+          "name": "Brown Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Brown Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Brown Button With Shadow_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/cd4e44711fcc178a4cacfc4c53455e174fdcc9c21a3b08adc3fe4526dfbc3423_Brown Button With Shadow_Idle.png",
+          "name": "Brown Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Brown Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Brown Button With Shadow_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/47067128526b3c56071d01ec19f87649cd4b00f47432cb229e2c3cea96489b6b_Brown Button With Shadow_Pressed.png",
+          "name": "Brown Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CantoraOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CantoraOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
+          "name": "CantoraOne-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Shadow_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/71ee2c8d8b72808c7f084252cd36c80c44bc07655a3729e5fe7459c634007e8a_Red Button With Shadow_Hovered.png",
+          "name": "Red Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Shadow_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6c6bf020fb86d99a9ecc993f8b90064d73d757bc2408050cf353c84bc36f6be2_Red Button With Shadow_Idle.png",
+          "name": "Red Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Shadow_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b9ce526450d48adedb6875043465ae168fff1f6b01dd1ff7f43b7e7c1568cc21_Red Button With Shadow_Pressed.png",
+          "name": "Red Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Brown_Idle.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Medieval Button Brown_Idle.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Brown Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Brown Button With Shadow_Hovered.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Brown Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Brown Button With Shadow_Pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "coffee-122351.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "coffee-122351.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "coffee-122350.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "coffee-122350.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "coffee-122349.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "coffee-122349.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -292,7 +506,7 @@
   "variables": [
     {
       "folded": true,
-      "name": "Achievement_Latte",
+      "name": "Achievement_Mocha",
       "type": "boolean",
       "value": false
     }
@@ -300,11 +514,19 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/making-espresso"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/making-cafecubano"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/making-latte"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene"
+      "referenceTo": "/layouts/making-mocha"
     }
   ],
   "externalEvents": [
@@ -313,7 +535,12 @@
       "referenceTo": "/externalEvents/untitled-external-events"
     }
   ],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
