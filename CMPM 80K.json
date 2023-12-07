@@ -505,24 +505,39 @@
         "userAdded": true
       },
       {
-        "file": "assets/coffee-122351.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\coffee-122351.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
+        "alwaysLoaded": false,
+        "file": "assets/assets_Brown Button With Shadow_Pressed.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets/Brown Button With Shadow_Pressed.png2",
+        "smoothed": true,
         "userAdded": true
       },
       {
-        "file": "assets/Blacksmith.aac",
-        "kind": "audio",
+        "alwaysLoaded": false,
+        "file": "assets/cafe_normal left.png",
+        "kind": "image",
         "metadata": "",
-        "name": "assets\\Blacksmith.aac",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
+        "name": "62f3d502c20295732e4316dc37fffdb495ce51fd50aaee063125e2e09721d295_cafe_normal left.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/building/62f3d502c20295732e4316dc37fffdb495ce51fd50aaee063125e2e09721d295_cafe_normal left.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cafe_damaged left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "24c17759240a70818521c906b9c1660474de3ed30f61c1a3b0d8ee73b08d0428_cafe_damaged left.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/building/24c17759240a70818521c906b9c1660474de3ed30f61c1a3b0d8ee73b08d0428_cafe_damaged left.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -547,15 +562,19 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/making-latte"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/making-cafecubano"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/making-latte"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/making-mocha"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/intropage"
     }
   ],
   "externalEvents": [

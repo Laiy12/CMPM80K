@@ -1252,18 +1252,6 @@
           "parameters": [
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "PlayMusic"
-          },
-          "parameters": [
-            "",
-            "assets\\Blacksmith.aac",
-            "yes",
-            "20",
-            ""
-          ]
         }
       ]
     },

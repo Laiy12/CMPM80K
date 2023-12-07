@@ -5,7 +5,7 @@
   "name": "Making Espresso ",
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": false,
+  "stopSoundsOnStartup": true,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.39251611754882637,
+    "zoomFactor": 0.5843784410740989,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -997,7 +997,7 @@
           "height": 64,
           "leftMargin": 7,
           "rightMargin": 7,
-          "texture": "assets/Brown Button With Shadow_Pressed.png",
+          "texture": "assets/Brown Button With Shadow_Pressed.png2",
           "tiled": true,
           "topMargin": 7,
           "width": 192
@@ -1007,7 +1007,7 @@
           "height": 64,
           "leftMargin": 7,
           "rightMargin": 7,
-          "texture": "assets/Brown Button With Shadow_Hovered.png",
+          "texture": "Brown Button With Shadow_Idle.png",
           "tiled": true,
           "topMargin": 7,
           "width": 192
@@ -1121,18 +1121,6 @@
             "value": "PlayerAuthentication::DisplayAuthenticationBanner"
           },
           "parameters": [
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlayMusic"
-          },
-          "parameters": [
-            "",
-            "assets\\coffee-122351.mp3",
-            "yes",
-            "20",
             ""
           ]
         }
@@ -1312,7 +1300,17 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "PreloadSound"
+          },
+          "parameters": [
+            "",
+            "coffee-122351.mp3"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
