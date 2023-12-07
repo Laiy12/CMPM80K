@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "IntroPage_32",
-  "name": "IntroPage ",
+  "mangledName": "FinalPage",
+  "name": "FinalPage",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -73,16 +73,30 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 32,
-      "height": 85,
+      "customSize": false,
+      "height": 0,
       "layer": "",
-      "name": "BrownButtonWithShadow",
-      "persistentUuid": "e55d8dd3-1675-4707-b084-858c01230341",
-      "width": 253,
-      "x": 512,
-      "y": 378,
+      "name": "Replay",
+      "persistentUuid": "061d94e7-5bae-4ba8-861d-d2310c9f9fb9",
+      "width": 0,
+      "x": 535,
+      "y": 362,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Exit",
+      "persistentUuid": "45f6f4b5-68a2-4c5e-b825-86d98f2fb353",
+      "width": 0,
+      "x": 537,
+      "y": 486,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -111,9 +125,9 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Welcome To Cafe Simulator !!",
+      "string": "Play Through Again or Exit?",
       "font": "",
-      "textAlignment": "left",
+      "textAlignment": "center",
       "characterSize": 50,
       "color": {
         "b": 0,
@@ -123,7 +137,7 @@
     },
     {
       "assetStoreId": "d7de738069817891a6c233618dc4fe00463738543c80009e9ef75684d5f6e8fd",
-      "name": "BrownButtonWithShadow",
+      "name": "Replay",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -162,7 +176,70 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Start",
+          "string": "Replay",
+          "font": "CantoraOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "47067128526b3c56071d01ec19f87649cd4b00f47432cb229e2c3cea96489b6b_Brown Button With Shadow_Pressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "d7de738069817891a6c233618dc4fe00463738543c80009e9ef75684d5f6e8fd",
+      "name": "Exit",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "cd4e44711fcc178a4cacfc4c53455e174fdcc9c21a3b08adc3fe4526dfbc3423_Brown Button With Shadow_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "6744d1d1623a1dd0307667df92a05ab7d33bd968fd4013f06c469331d120df2e_Brown Button With Shadow_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Exit",
           "font": "CantoraOne-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 40,
@@ -195,7 +272,10 @@
         "objectName": "NewText"
       },
       {
-        "objectName": "BrownButtonWithShadow"
+        "objectName": "Replay"
+      },
+      {
+        "objectName": "Exit"
       }
     ]
   },
@@ -208,7 +288,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "BrownButtonWithShadow",
+            "Replay",
             ""
           ]
         }
@@ -221,6 +301,30 @@
           "parameters": [
             "",
             "\"Making Espresso \"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Exit",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Quit"
+          },
+          "parameters": [
             ""
           ]
         }

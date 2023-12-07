@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5843784410740989,
+    "zoomFactor": 0.3797121001947971,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -68,6 +68,22 @@
       "x": 4,
       "y": 3,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 288,
+      "layer": "",
+      "name": "Instructions",
+      "persistentUuid": "3d8516a2-981c-4909-8b93-112651611b28",
+      "width": 288,
+      "x": 529,
+      "y": 473,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1038,6 +1054,87 @@
           "width": 192
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Instructions",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\InstructionSheet.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 4
+                      },
+                      {
+                        "x": 24,
+                        "y": 4
+                      },
+                      {
+                        "x": 24,
+                        "y": 25
+                      },
+                      {
+                        "x": 7,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "InstructionsEspresso",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Let's start making coffee! Every good drink begins with a shot of espresso.\n\nLoad the coffee machine with coffee beans and pull your lovely shot of espresso!",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1099,6 +1196,12 @@
       },
       {
         "objectName": "MedievalButtonBrown"
+      },
+      {
+        "objectName": "Instructions"
+      },
+      {
+        "objectName": "InstructionsEspresso"
       }
     ]
   },
@@ -1122,6 +1225,36 @@
           },
           "parameters": [
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\coffee-122351.mp3",
+            "yes",
+            "20",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayer"
+          },
+          "parameters": [
+            "Instructions",
+            "\"Instructions\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayer"
+          },
+          "parameters": [
+            "InstructionsEspresso",
+            "\"Instructions\""
           ]
         }
       ]
@@ -1195,7 +1328,7 @@
             "EmptyCup",
             "Scale",
             "=",
-            "7"
+            "9"
           ]
         }
       ]
@@ -1246,7 +1379,7 @@
             "EspressoCup",
             "Scale",
             "=",
-            "7"
+            "9"
           ]
         },
         {
@@ -1254,7 +1387,7 @@
             "value": "Wait"
           },
           "parameters": [
-            ".5"
+            "2"
           ]
         },
         {
@@ -1264,8 +1397,8 @@
           "parameters": [
             "",
             "MedievalButtonBrown",
-            "532",
-            "269",
+            "560",
+            "51",
             ""
           ]
         }
@@ -1291,7 +1424,7 @@
           },
           "parameters": [
             "",
-            "\"Making Latte\"",
+            "\"Making CafeCubano\"",
             ""
           ]
         }
@@ -1299,15 +1432,70 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
+      "conditions": [
         {
           "type": {
-            "value": "PreloadSound"
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Instructions",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
           },
           "parameters": [
             "",
-            "coffee-122351.mp3"
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "InstructionsEspresso",
+            "311",
+            "395",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Escape"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "InstructionsEspresso",
+            ""
           ]
         }
       ]
@@ -1386,6 +1574,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

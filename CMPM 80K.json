@@ -1,5 +1,5 @@
 {
-  "firstLayout": "Making Espresso ",
+  "firstLayout": "IntroPage ",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -590,6 +590,34 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/47067128526b3c56071d01ec19f87649cd4b00f47432cb229e2c3cea96489b6b_Brown Button With Shadow_Pressed.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/InstructionSheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\InstructionSheet.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coffee-122351.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\coffee-122351.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -603,6 +631,12 @@
     {
       "folded": true,
       "name": "Achievement_Mocha",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "SugarAdded",
       "type": "boolean",
       "value": false
     }
@@ -623,6 +657,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/making-mocha"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/finalpage"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

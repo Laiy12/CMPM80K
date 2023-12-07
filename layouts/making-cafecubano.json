@@ -44,23 +44,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 220,
-      "layer": "",
-      "name": "MilkPlastic",
-      "persistentUuid": "9a117bed-1a52-4bf8-b525-561cd0ea706e",
-      "width": 205,
-      "x": 73,
-      "y": 440,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 193,
+      "height": 169,
       "layer": "",
       "name": "Sugar",
       "persistentUuid": "8851f363-0562-4922-92d5-2f02425171e4",
@@ -106,31 +90,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 286,
-      "layer": "",
-      "name": "MetalMilkPitcher",
-      "persistentUuid": "b9adbd22-28e3-4925-9503-b9e7f994201b",
-      "width": 248,
-      "x": 560,
-      "y": 440,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 300,
+      "height": 288,
       "layer": "",
-      "name": "EmptyCup",
-      "persistentUuid": "80f105c4-f814-45b9-a3bc-9f189fc25bdd",
-      "width": 300,
-      "x": 513,
-      "y": 253,
-      "zOrder": 9,
+      "name": "InstructionsCafeCubano",
+      "persistentUuid": "3b68a2a9-e98a-4810-93f0-4935c4167b76",
+      "width": 288,
+      "x": 542,
+      "y": 437,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1164,6 +1133,211 @@
           "width": 192
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "CafeCubano",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 4
+                      },
+                      {
+                        "x": 23,
+                        "y": 4
+                      },
+                      {
+                        "x": 23,
+                        "y": 18
+                      },
+                      {
+                        "x": 6,
+                        "y": 18
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "InstructionsCafeCubano",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\InstructionSheet.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 4
+                      },
+                      {
+                        "x": 24,
+                        "y": 4
+                      },
+                      {
+                        "x": 24,
+                        "y": 25
+                      },
+                      {
+                        "x": 7,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "InstructionsCafeCubano2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "We have espresso! Now let's get a little sweet with it!\n\nCafe Cubano is a variation of espresso that pulls sugar with the\nshot of espresso. Don't overthink it! ",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "MedievalButtonBrown3",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "assets/Brown Button With Shadow_Pressed.png2",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Brown Button With Shadow_Idle.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Next Level",
+          "font": "CaveatBrush-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 35,
+          "color": {
+            "b": 159,
+            "g": 190,
+            "r": 219
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "assets/Brown Button With Shadow_Hovered.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1186,6 +1360,9 @@
       },
       {
         "objectName": "CupTea"
+      },
+      {
+        "objectName": "MedievalButtonBrown3"
       },
       {
         "objectName": "KitchenCoffeeMachine"
@@ -1228,6 +1405,15 @@
       },
       {
         "objectName": "MedievalButtonBrown2"
+      },
+      {
+        "objectName": "CafeCubano"
+      },
+      {
+        "objectName": "InstructionsCafeCubano"
+      },
+      {
+        "objectName": "InstructionsCafeCubano2"
       }
     ]
   },
@@ -1263,8 +1449,82 @@
             "value": "CollisionNP"
           },
           "parameters": [
+            "CoffeeBag",
+            "KitchenCoffeeMachine",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "CoffeeBag",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "CoffeeBag",
+            "1058",
+            "50",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "CoffeeBag",
+            "Scale",
+            "=",
+            "6"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "EmptyCup",
+            "538",
+            "253",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "EmptyCup",
+            "Scale",
+            "=",
+            "9"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
             "Sugar",
-            "CupTea",
+            "KitchenCoffeeMachine",
             "",
             "",
             "yes"
@@ -1277,47 +1537,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "CupTea",
-            "Animation"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Chocolatecake",
-            "100",
-            "100",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "MetalMilkPitcher",
-            "MilkPlastic",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "MetalMilkPitcher",
+            "Sugar",
             ""
           ]
         },
@@ -1327,50 +1547,30 @@
           },
           "parameters": [
             "",
-            "MilkPitcher",
-            "560",
-            "440",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "MilkPitcher",
-            "KitchenCoffeeMachine",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "MilkPitcher",
+            "Sugar",
+            "1084",
+            "461",
             ""
           ]
         },
         {
           "type": {
-            "value": "Create"
+            "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
-            "",
-            "SteamedMilkPitcher",
-            "560",
-            "440",
-            ""
+            "SugarAdded",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "Sugar",
+            "Scale",
+            "=",
+            "5"
           ]
         }
       ]
@@ -1388,6 +1588,15 @@
             "",
             "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "SugarAdded",
+            "True"
           ]
         }
       ],
@@ -1407,7 +1616,7 @@
           },
           "parameters": [
             "",
-            "EspressoCup",
+            "CafeCubano",
             "510",
             "260",
             ""
@@ -1418,91 +1627,10 @@
             "value": "ScalableCapability::ScalableBehavior::SetValue"
           },
           "parameters": [
-            "EspressoCup",
+            "CafeCubano",
             "Scale",
             "=",
             "9"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "SteamedMilkPitcher",
-            "EspressoCup",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "EspressoCup",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "LatteCup",
-            "510",
-            "160",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ScalableCapability::ScalableBehavior::SetValue"
-          },
-          "parameters": [
-            "LatteCup",
-            "Scale",
-            "=",
-            "9"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetGlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "Achievement_Mocha",
-            "True"
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "SteamedMilkPitcher",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "MilkPitcher",
-            "560",
-            "440",
-            ""
           ]
         },
         {
@@ -1519,9 +1647,114 @@
           },
           "parameters": [
             "",
-            "MedievalButtonBrown",
-            "529",
-            "311",
+            "MedievalButtonBrown3",
+            "560",
+            "51",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "InstructionsCafeCubano",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "InstructionsCafeCubano2",
+            "427",
+            "330",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Escape"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "InstructionsCafeCubano2",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayerAuthentication::DisplayAuthenticationBanner"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\coffee-122351.mp3",
+            "yes",
+            "20",
             ""
           ]
         }
@@ -1535,7 +1768,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "MedievalButtonBrown",
+            "MedievalButtonBrown3",
             ""
           ]
         }
@@ -1547,26 +1780,11 @@
           },
           "parameters": [
             "",
-            "\"Making Mocha\"",
+            "\"Making Latte\"",
             ""
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "Achievement_Mocha",
-            "True"
-          ]
-        }
-      ],
-      "actions": []
     }
   ],
   "layers": [
@@ -1642,6 +1860,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }
